@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0a0e1a">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <title>KIMI K2.5 Guide</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { 
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+      background: linear-gradient(135deg, #0a0e1a 0%, #1a1e2e 100%);
+      color: white;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .header {
+      text-align: center;
+      padding: 30px 0;
+    }
+    .header h1 {
+      font-size: 2em;
+      background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 10px;
+    }
+    .header p { color: #9ca3af; }
+    .tool-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 16px;
+      padding: 20px;
+      margin-bottom: 15px;
+    }
+    .tool-card h3 {
+      color: #3b82f6;
+      margin-bottom: 8px;
+    }
+    .tool-card p {
+      color: #d1d5db;
+      font-size: 0.9em;
+      line-height: 1.5;
+    }
+    .badge {
+      display: inline-block;
+      background: rgba(59, 130, 246, 0.2);
+      color: #60a5fa;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.75em;
+      margin-top: 10px;
+    }
+    .footer {
+      text-align: center;
+      padding: 30px;
+      color: #6b7280;
+      font-size: 0.8em;
+    }
+    a { color: #60a5fa; }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>🚀 KIMI K2.5 Guide</h1>
+    <p>Der komplette Guide zu allen KIMI Tools</p>
+  </div>
+
+  <div class="tool-card">
+    <h3>💻 KIMI Code</h3>
+    <p>CLI & IDE Integration. Das Terminal wird zur intelligenten Entwicklungsumgebung mit 3 Betriebsmodi: Agent, YOLO, Shell.</p>
+    <span class="badge">MCP-Protokoll</span>
+  </div>
+
+  <div class="tool-card">
+    <h3>🔍 Web Search</h3>
+    <p>Live-Recherche & Browser. Multi-Source Verification mit automatischer Zitationsformatierung.</p>
+    <span class="badge">78.4% Erfolgsrate</span>
+  </div>
+
+  <div class="tool-card">
+    <h3>🐝 Agent Swarm</h3>
+    <p>Bis zu 100 parallele Sub-Agenten mit 1.500 gleichzeitigen Tool-Calls. 4.5× schneller als sequentielle Agents.</p>
+    <span class="badge">Beta</span>
+  </div>
+
+  <div class="tool-card">
+    <h3>🧠 Deep Research</h3>
+    <p>Autonome Tiefenrecherche mit strukturierten Reports, 20+ Quellen und Handlungsempfehlungen.</p>
+    <span class="badge">5000+ Wörter</span>
+  </div>
+
+  <div class="tool-card">
+    <h3>📄 Docs</h3>
+    <p>Word & PDF mit LaTeX-Formeln, Track-Changes und akademischer Formatierung.</p>
+    <span class="badge">APA/IEEE</span>
+  </div>
+
+  <div class="footer">
+    <p>🔗 <a href="https://kimi.com" target="_blank">kimi.com</a></p>
+    <p>Tippe auf "Teilen" → "Zum Home-Bildschirm" für die App</p>
+  </div>
+</body>
+</html>
